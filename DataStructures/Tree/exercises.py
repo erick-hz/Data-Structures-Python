@@ -41,4 +41,4 @@ def printBST(node, level=0):
 
 # Write a Python function to find the lowest common ancestor(LCA) of two nodes in a binary search tree. The function should take the root node of the tree and the two nodes as input and return the LCA.
 
-# Write a Python function to serialize and deserialize a binary tree. The function should take the root node of the tree as input and return a string representation of the tree. The deserialization function should take the string representation as input and return the root node of the tree.
+
