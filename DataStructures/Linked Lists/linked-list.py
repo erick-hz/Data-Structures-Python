@@ -1,5 +1,3 @@
-# The Node class is defined with two attributes: data, which holds the data for the node, and next, which holds a reference to the next node in the list (or None if there is no next node)
-
 class Node:
     def __init__(self, data=None, next=None):
         self.data = data
