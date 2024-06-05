@@ -1,4 +1,4 @@
-# create a dictionary to store information about fruits
+
 fruit_info = {'apple': {'color': 'red', 'price': 0.50},
               'banana': {'color': 'yellow', 'price': 0.25},
               'orange': {'color': 'orange', 'price': 0.30}}
