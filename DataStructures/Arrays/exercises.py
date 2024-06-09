@@ -61,7 +61,21 @@ def merge_sorted_arrays(arr1, arr2):
 # Test the function
 arr1 = [1, 3, 5]
 arr2 = [2, 4, 6]
-print(merge_sorted_arrays(arr1, arr2))  
+print(merge_sorted_arrays(arr1, arr2))
 
+#Write a function that counts the number of occurrences of each element in an array and returns a dictionary.
+
+def count_occurrences(arr):
+    occurrences = {}
+    for item in arr:
+        if item in occurrences:
+            occurrences[item] += 1
+        else:
+            occurrences[item] = 1
+    return occurrences
+
+# Test the function
+arr = [1, 2, 2, 3, 3, 3, 4]
+print(count_occurrences(arr))
 
 
